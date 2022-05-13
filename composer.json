@@ -1,0 +1,49 @@
+{
+    "name": "faltuuser/oauthclient",
+    "description": "login register",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "oauthclient"
+    ],
+    "support": {
+        "docs": "https://github.com/faltuuser/oauthclient/blob/master/README.md",
+        "issues": "https://github.com/faltuuser/oauthclient/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "faltuuser",
+            "homepage": "https://github.com/faltuuser/oauthclient"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "faltuuser\\oauthclient\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "oauthclient",
+        "handle": "oauthclient",
+        "developer": "faltuuser",
+        "developerUrl": "https://github.com/faltuuser/oauthclient",
+        "documentationUrl": "https://github.com/faltuuser/oauthclient/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/faltuuser/oauthclient/master/CHANGELOG.md",
+        "class": "faltuuser\\oauthclient\\Oauthclient"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+        "type": "path",
+        "url": "../../faltuuser/oauthclient"
+        }
+    ]
+}
